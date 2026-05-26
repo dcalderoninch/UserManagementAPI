@@ -1,0 +1,61 @@
+POST http://localhost:5053/api/auth/login
+Content-Type: application/json
+
+{
+    "username": "admin",
+    "password": "admin123"
+}
+###
+
+GET http://localhost:5053/api/user
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbiIsInVuaXF1ZV9uYW1lIjoiYWRtaW4iLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYWRtaW4iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJBZG1pbiIsImp0aSI6ImMyY2NmZGI3LTE2ODAtNDFmYS1iZmE4LTViNzU0YzNkZWVjOCIsImV4cCI6MTc3OTc2NjMyNCwiaXNzIjoiVXNlck1hbmFnZW1lbnRBUEkiLCJhdWQiOiJVc2VyTWFuYWdlbWVudEFQSVVzZXJzIn0.tNh_kupk8WQT90Ox2fwDVYihUmzA68zhadRLHjlB8PY
+###
+
+GET http://localhost:5053/api/user/2
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbiIsInVuaXF1ZV9uYW1lIjoiYWRtaW4iLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYWRtaW4iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJBZG1pbiIsImp0aSI6ImMyY2NmZGI3LTE2ODAtNDFmYS1iZmE4LTViNzU0YzNkZWVjOCIsImV4cCI6MTc3OTc2NjMyNCwiaXNzIjoiVXNlck1hbmFnZW1lbnRBUEkiLCJhdWQiOiJVc2VyTWFuYWdlbWVudEFQSVVzZXJzIn0.tNh_kupk8WQT90Ox2fwDVYihUmzA68zhadRLHjlB8PY
+###
+
+POST http://localhost:5053/api/user
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbiIsInVuaXF1ZV9uYW1lIjoiYWRtaW4iLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYWRtaW4iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJBZG1pbiIsImp0aSI6ImMyY2NmZGI3LTE2ODAtNDFmYS1iZmE4LTViNzU0YzNkZWVjOCIsImV4cCI6MTc3OTc2NjMyNCwiaXNzIjoiVXNlck1hbmFnZW1lbnRBUEkiLCJhdWQiOiJVc2VyTWFuYWdlbWVudEFQSVVzZXJzIn0.tNh_kupk8WQT90Ox2fwDVYihUmzA68zhadRLHjlB8PY
+Content-Type: application/json
+
+{
+    "name": "John",
+    "lastname": "Doe",
+    "username": "john.doe454",
+    "email": "john.doe@example.com",
+    "position": "Engineer",
+    "phone": "123-456-7890"
+}
+###
+
+POST http://localhost:5053/api/user
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbiIsInVuaXF1ZV9uYW1lIjoiYWRtaW4iLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYWRtaW4iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJBZG1pbiIsImp0aSI6ImMyY2NmZGI3LTE2ODAtNDFmYS1iZmE4LTViNzU0YzNkZWVjOCIsImV4cCI6MTc3OTc2NjMyNCwiaXNzIjoiVXNlck1hbmFnZW1lbnRBUEkiLCJhdWQiOiJVc2VyTWFuYWdlbWVudEFQSVVzZXJzIn0.tNh_kupk8WQT90Ox2fwDVYihUmzA68zhadRLHjlB8PY
+Content-Type: application/json
+
+{
+    "name": "Karla",
+    "lastname": "Jhonson",
+    "username": "kjhonson1",
+    "email": "karlajhonson@test.com",
+    "position": "Lawyer",
+    "phone": "456-789-0123"
+}
+###
+
+PUT http://localhost:5053/api/user/2
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbiIsInVuaXF1ZV9uYW1lIjoiYWRtaW4iLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYWRtaW4iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJBZG1pbiIsImp0aSI6ImMyY2NmZGI3LTE2ODAtNDFmYS1iZmE4LTViNzU0YzNkZWVjOCIsImV4cCI6MTc3OTc2NjMyNCwiaXNzIjoiVXNlck1hbmFnZW1lbnRBUEkiLCJhdWQiOiJVc2VyTWFuYWdlbWVudEFQSVVzZXJzIn0.tNh_kupk8WQT90Ox2fwDVYihUmzA68zhadRLHjlB8PY
+Content-Type: application/json
+
+{
+    "name": "Karlota",
+    "lastname": "Jhonson",
+    "username": "kjhonson1",
+    "email": "karlajhonson@test.com",
+    "position": "Lawyer",
+    "phone": "456-789-0123"
+}
+###
+
+DELETE http://localhost:5053/api/user/2
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbiIsInVuaXF1ZV9uYW1lIjoiYWRtaW4iLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYWRtaW4iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJBZG1pbiIsImp0aSI6ImMyY2NmZGI3LTE2ODAtNDFmYS1iZmE4LTViNzU0YzNkZWVjOCIsImV4cCI6MTc3OTc2NjMyNCwiaXNzIjoiVXNlck1hbmFnZW1lbnRBUEkiLCJhdWQiOiJVc2VyTWFuYWdlbWVudEFQSVVzZXJzIn0.tNh_kupk8WQT90Ox2fwDVYihUmzA68zhadRLHjlB8PY
