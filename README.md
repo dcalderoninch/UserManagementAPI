@@ -23,12 +23,14 @@ The repository includes the file **requests.http**, which is intended to help te
 ## Project Execution ▶️
 1. Compile the project:
 
-    dotnet build
+```
+dotnet build
+```
 
 2. Run the project:
-
+```
     dotnet run
-
+```
 3. Use the **requests.http** file to test the API endpoints.
 
 ## Technologies 💻
