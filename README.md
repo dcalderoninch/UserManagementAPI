@@ -1,8 +1,8 @@
 # Inalambria Test
 1. [Description](#description-)
-2. [Project Setup](#project-setup-)
+2. [Project Setup](#project-setup-%EF%B8%8F)
 3. [Utilities](#utilities-)
-4. [Project Execution](#project-execution-)
+4. [Project Execution](#project-execution-%EF%B8%8F)
 5. [Technologies](#technologies-)
 6. [Author](#author-)
 
