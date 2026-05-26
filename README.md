@@ -1,4 +1,4 @@
-# Inalambria Test
+# TechHive Solutions
 1. [Description](#description-)
 2. [Project Setup](#project-setup-%EF%B8%8F)
 3. [Utilities](#utilities-)
